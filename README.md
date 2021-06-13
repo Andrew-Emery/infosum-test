@@ -32,6 +32,7 @@ Doesn't give much information on what's wanted here, will think about it after p
 ```
 
 3. I drew a rough design at this stage for how to navigate the datasets
+
 ![Initial design](/readmeextra/initialdesign.png "First design")
 
 4. I spent a fair amount of time changing colours (before deciding it was prettier to use infosums) and moving things around, though after a while I became quite happy with the style.
