@@ -3,7 +3,7 @@ My approach to this project was as follows;
 1. First of all I read the spec, but couldn't entirely understand the problem immediately.
 2. I looked at the provided data in api.ts and api-definition.d.ts to try to get a better understanding of the problem. These notes looked like this...
 
-`Make API call -> [Dataset, Dataset, Dataset]
+```Make API call -> [Dataset, Dataset, Dataset]
 
 Dataset -> id, name, created date, updated date, stats (keys & row_count)
 
@@ -29,7 +29,7 @@ Category -> id, name, best_reprentation (Column)
 Column -> statistics, reprentation_id, representation_name
 
 Doesn't give much information on what's wanted here, will think about it after part 1
-`
+```
 
 3. I drew a rough design at this stage for how to navigate the datasets
 ![Initial design](/readmeextra/initialdesign.png "First design")
