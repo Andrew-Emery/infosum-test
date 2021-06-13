@@ -1,0 +1,21 @@
+.number-cell {
+  text-align: right;
+}
+
+.cell {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.even-row {
+  background-color: #efefef;
+}
+
+.hovered-row {
+  background-color: #f68d2e44;
+}
+
+.link-cell {
+  text-decoration: none;
+  color: inherit;
+}

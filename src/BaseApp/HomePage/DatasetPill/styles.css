@@ -1,0 +1,65 @@
+.dataset-pill-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.dataset-pill-container {
+  cursor: pointer;
+}
+
+.dataset-pill-content {
+}
+
+.dataset-pill-container:hover .dataset-pill-header {
+  background-position: 0 100%;
+  color: black;
+}
+
+.dataset-pill-header {
+  transition: background-position 3s, color 1s;
+  background: linear-gradient(
+    90deg,
+    #6cace4,
+    #6cace4 50%,
+    #13294b 50%,
+    #13294b 100%
+  );
+  background-size: 200% 200%;
+  background-position: 100% 200%;
+
+  color: white;
+  padding: 10px 10px;
+  letter-spacing: 0.7px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.dataset-pill-footer {
+  display: grid;
+  grid-template: "a b c d e" auto / 1fr 1fr 1fr 1fr;
+  padding: 20px;
+}
+
+.search-list-icon {
+  width: 20px;
+  padding: 5px 10px 5px 5px;
+  flex-grow: 0;
+}
+
+.bigger-icon {
+  width: 25px;
+}
+
+.search-list-text {
+  font-size: 12px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dataset-pill-container {
+  border: 1px solid #13294b;
+  border-radius: 6px;
+  margin-top: 8px;
+}

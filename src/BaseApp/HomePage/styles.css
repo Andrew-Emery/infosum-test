@@ -1,0 +1,25 @@
+#search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#home-search {
+  box-sizing: border-box;
+  height: 40px;
+  flex-grow: 1;
+  outline: none;
+  border: 1px solid black;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+button.btn {
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.no-data-message {
+  padding: 50px;
+  text-align: center;
+}

@@ -1,0 +1,72 @@
+.dataset-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.dataset-grid-categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-head {
+  background-color: #13294b;
+  color: white;
+  padding: 5px 10px;
+}
+
+.no-keys-message {
+  text-align: center;
+  padding: 50px;
+}
+
+.dataset-container {
+}
+
+.dataset-content {
+}
+
+.dataset-content-box {
+  border: 1px solid #13294b;
+  overflow: hidden;
+}
+
+.page-tree {
+  cursor: default;
+  border: 1px solid #13294b;
+  border-bottom: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: block;
+  width: max-content;
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.page-tree-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.page-tree-link:hover {
+  border-bottom: 1px solid #f68d2e;
+}
+
+.extra-collapse-content {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-size: 12px;
+}
+
+.extra-collapse-content-icon {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.extra-collapse-content-icon-small {
+  width: 15px;
+  margin-right: 5px;
+}

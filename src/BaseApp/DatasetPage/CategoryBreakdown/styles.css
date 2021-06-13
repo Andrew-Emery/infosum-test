@@ -1,0 +1,55 @@
+.key-breakdown-box {
+  border: 1px solid #13294b;
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.drilldown-message {
+  text-align: center;
+  font-size: 12px;
+}
+
+.back-link {
+  background-color: #13294b;
+  color: white;
+}
+
+.chart-container {
+  margin-top: 10px;
+}
+
+.pill {
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.blue {
+  background-color: #6cace4;
+}
+
+.orange {
+  background-color: #f68d2e;
+}
+
+.green {
+  background-color: #00973999;
+}
+
+.purple {
+  background-color: #7d55c7;
+  color: white;
+}
+
+.pill-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

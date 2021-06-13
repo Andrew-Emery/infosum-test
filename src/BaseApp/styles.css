@@ -1,0 +1,12 @@
+.centered-container {
+  min-width: 800px;
+}
+
+.infosum-logo {
+  padding: 30px 0;
+}
+
+.infosum-logo-container {
+  margin: 0 auto;
+  width: 800px;
+}
